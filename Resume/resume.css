@@ -1,0 +1,53 @@
+/* CSS styles for the page */
+.container {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    margin: 100px;
+    border: 1px solid rgb(30, 19, 19);
+    align-items: center;
+  }
+  #header {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  #left-section {
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+  }
+  #right-section {
+    width: 75%;
+    height: 100%;
+    float: right;
+    padding: 20px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+
+  #personal-info, #technical-info , #hobbies-info {
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+  }
+
+  #work-info, #project-info, #education-info, #intern-info, #achievement-info  {
+    width: 100%;
+    text-align: left;
+    margin-left: 10px; 
+    position: relative;
+    display: inline-block;
+  }
+
+  .search-box { 
+    width: 100%;
+    text-align:center;
+  }
